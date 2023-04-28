@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamYukki/YukkiMusicBot"
+    "https://github.com/Chiranjibkoch/arohi"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -66,10 +66,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", "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")
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/ArchBots") 
-)  # Example:- https://t.me/TheYukki
+  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/+qtRRPXgqlB9hOWJl") 
-)  # Example:- https://t.me/YukkiSupport
+
+# Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false")
